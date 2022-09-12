@@ -1,18 +1,17 @@
-253 Bytes
 #include <stdio.h>
 /**
-*main - main block
-*Description: prints all single digit numbers of base 10
-*starting from 0, followed by a new line.
-*Return: 0
-*/
+ * main - print if the number is postive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
+ */
 int main(void)
 {
-int c = 0;
-while (c < 10)
+int n;
+for (n = '0'; n <= '9'; n++)
 {
-putchar(48 + c);
-c++;
+	putchar(n);
 }
 putchar('\n');
 return (0);
